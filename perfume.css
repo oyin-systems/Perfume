@@ -1,0 +1,60 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  font-style: normal;
+} 
+
+
+.parent {
+  background-color: #810955;
+  border: none;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  width: 700px;
+  height: 500px;
+}
+
+.img {
+  width: 250px;
+  height: 350px;
+}
+
+.flex {
+  display: inline-block;
+  border: none;
+  padding: 75px 45px;
+  vertical-align: middle;
+  width: 250px;
+  height: 350px; 
+  background-color: white;
+  text-align: left;
+  margin-left: auto;
+}
+
+h2 {
+  display: inline-block;
+}
+
+#initial_money {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+button {
+  background-color: #810955;
+  color: white;
+  border: none;
+  padding-left: 30px;
+  width: 170px;
+  height: 40px;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  font-size: medium;
+}
